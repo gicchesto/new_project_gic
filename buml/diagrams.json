@@ -1,0 +1,982 @@
+{
+  "ClassDiagram": [
+    {
+      "id": "e0d493dd-2015-4850-a56d-aa573dec081b",
+      "title": "Class Diagram",
+      "model": {
+        "version": "3.0.0",
+        "type": "ClassDiagram",
+        "size": {
+          "width": 850,
+          "height": 500
+        },
+        "interactive": {
+          "elements": {},
+          "relationships": {}
+        },
+        "elements": {
+          "0627952d-ad4c-44d2-a32c-03baeca15215": {
+            "id": "0627952d-ad4c-44d2-a32c-03baeca15215",
+            "name": "Person",
+            "type": "Class",
+            "owner": null,
+            "bounds": {
+              "x": -405,
+              "y": -221,
+              "width": 160,
+              "height": 130
+            },
+            "attributes": [
+              "bd80139b-977f-4f1a-a8a5-b69607f8eebb",
+              "84c6131a-b38b-4941-8192-755418af8d58",
+              "223efc48-a83a-4a30-9a7e-d9ee1cbb33eb"
+            ],
+            "methods": []
+          },
+          "bd80139b-977f-4f1a-a8a5-b69607f8eebb": {
+            "id": "bd80139b-977f-4f1a-a8a5-b69607f8eebb",
+            "name": "id",
+            "type": "ClassAttribute",
+            "owner": "0627952d-ad4c-44d2-a32c-03baeca15215",
+            "bounds": {
+              "x": -404.5,
+              "y": -180.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": "",
+            "isOptional": false,
+            "isDerived": false,
+            "isId": false,
+            "isExternalId": false
+          },
+          "84c6131a-b38b-4941-8192-755418af8d58": {
+            "id": "84c6131a-b38b-4941-8192-755418af8d58",
+            "name": "Person",
+            "type": "ClassAttribute",
+            "owner": "0627952d-ad4c-44d2-a32c-03baeca15215",
+            "bounds": {
+              "x": -404.5,
+              "y": -150.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": "",
+            "isOptional": false,
+            "isDerived": false,
+            "isId": false,
+            "isExternalId": false
+          },
+          "223efc48-a83a-4a30-9a7e-d9ee1cbb33eb": {
+            "id": "223efc48-a83a-4a30-9a7e-d9ee1cbb33eb",
+            "name": "date_of",
+            "type": "ClassAttribute",
+            "owner": "0627952d-ad4c-44d2-a32c-03baeca15215",
+            "bounds": {
+              "x": -404.5,
+              "y": -120.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "date",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": "",
+            "isOptional": false,
+            "isDerived": false,
+            "isId": false,
+            "isExternalId": false
+          },
+          "3c4c6ca2-534b-472a-a05c-2b1a42fc3f5c": {
+            "id": "3c4c6ca2-534b-472a-a05c-2b1a42fc3f5c",
+            "name": "City",
+            "type": "Class",
+            "owner": null,
+            "bounds": {
+              "x": 40,
+              "y": -230,
+              "width": 160,
+              "height": 100
+            },
+            "attributes": [
+              "ff93d5e4-ed9a-48c9-8bec-cb35ef2f75b7",
+              "bb14d9dd-60e3-43c1-8331-033fbf55e62b"
+            ],
+            "methods": []
+          },
+          "ff93d5e4-ed9a-48c9-8bec-cb35ef2f75b7": {
+            "id": "ff93d5e4-ed9a-48c9-8bec-cb35ef2f75b7",
+            "name": "Id",
+            "type": "ClassAttribute",
+            "owner": "3c4c6ca2-534b-472a-a05c-2b1a42fc3f5c",
+            "bounds": {
+              "x": 40.5,
+              "y": -189.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": "",
+            "isOptional": false,
+            "isDerived": false,
+            "isId": false,
+            "isExternalId": false
+          },
+          "bb14d9dd-60e3-43c1-8331-033fbf55e62b": {
+            "id": "bb14d9dd-60e3-43c1-8331-033fbf55e62b",
+            "name": "City",
+            "type": "ClassAttribute",
+            "owner": "3c4c6ca2-534b-472a-a05c-2b1a42fc3f5c",
+            "bounds": {
+              "x": 40.5,
+              "y": -159.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": "",
+            "isOptional": false,
+            "isDerived": false,
+            "isId": false,
+            "isExternalId": false
+          }
+        },
+        "relationships": {
+          "15f6c36a-4368-4c03-aa55-2ecb7f734d6c": {
+            "id": "15f6c36a-4368-4c03-aa55-2ecb7f734d6c",
+            "name": "inCity",
+            "type": "ClassBidirectional",
+            "owner": null,
+            "bounds": {
+              "x": -245,
+              "y": -185.5,
+              "width": 285,
+              "height": 48.60000038146973
+            },
+            "path": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 285,
+                "y": 10
+              }
+            ],
+            "source": {
+              "direction": "Right",
+              "element": "0627952d-ad4c-44d2-a32c-03baeca15215",
+              "multiplicity": "*",
+              "role": ""
+            },
+            "target": {
+              "direction": "Downleft",
+              "element": "3c4c6ca2-534b-472a-a05c-2b1a42fc3f5c",
+              "multiplicity": "1",
+              "role": ""
+            },
+            "isManuallyLayouted": false
+          }
+        },
+        "assessments": {}
+      },
+      "lastUpdate": "2026-04-24T11:42:45.413Z"
+    }
+  ],
+  "GUINoCodeDiagram": [
+    {
+      "id": "16440b45-c76d-43d6-ab54-96ba654d28a8",
+      "title": "GUI Diagram",
+      "model": {
+        "pages": [
+          {
+            "name": "Person",
+            "frames": [
+              {
+                "component": {
+                  "type": "wrapper",
+                  "stylable": [
+                    "background",
+                    "background-color",
+                    "background-image",
+                    "background-repeat",
+                    "background-attachment",
+                    "background-position",
+                    "background-size"
+                  ],
+                  "components": [
+                    {
+                      "attributes": {
+                        "id": "i7gqi"
+                      },
+                      "components": [
+                        {
+                          "tagName": "nav",
+                          "attributes": {
+                            "id": "ic9ss"
+                          },
+                          "components": [
+                            {
+                              "tagName": "h2",
+                              "type": "text",
+                              "attributes": {
+                                "id": "i2nul"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "BESSER"
+                                }
+                              ]
+                            },
+                            {
+                              "attributes": {
+                                "id": "ido3o"
+                              },
+                              "components": [
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/person",
+                                    "id": "iqz5k"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Person"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/city",
+                                    "id": "i29bl"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "City"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "attributes": {
+                                "id": "i4kk5"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "\u00a9 2026 BESSER. All rights reserved."
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tagName": "main",
+                          "attributes": {
+                            "id": "ii1x4"
+                          },
+                          "components": [
+                            {
+                              "tagName": "h1",
+                              "type": "text",
+                              "attributes": {
+                                "id": "ip6li"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "Person"
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "p",
+                              "type": "text",
+                              "attributes": {
+                                "id": "ip3ch"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "Manage Person data"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "table",
+                              "style": "",
+                              "classes": [
+                                "has-data-binding"
+                              ],
+                              "attributes": {
+                                "chart-color": "#2c3e50",
+                                "chart-title": "Person List",
+                                "data-source": "0627952d-ad4c-44d2-a32c-03baeca15215",
+                                "show-header": "true",
+                                "striped-rows": "false",
+                                "show-pagination": "true",
+                                "rows-per-page": "5",
+                                "action-buttons": "true",
+                                "columns": [
+                                  {
+                                    "field": "id",
+                                    "label": "Id",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "Person",
+                                    "label": "Person",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "date_of",
+                                    "label": "Date Of",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "City",
+                                    "label": "City",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "3c4c6ca2-534b-472a-a05c-2b1a42fc3f5c",
+                                    "lookupField": "Id",
+                                    "_expanded": false
+                                  }
+                                ],
+                                "id": "table-person-0",
+                                "filter": ""
+                              },
+                              "chart-title": "Person List",
+                              "data-source": "0627952d-ad4c-44d2-a32c-03baeca15215",
+                              "show-header": "true",
+                              "striped-rows": "false",
+                              "show-pagination": "true",
+                              "action-buttons": "true",
+                              "rows-per-page": "5",
+                              "filter": "",
+                              "columns": [
+                                {
+                                  "field": "id",
+                                  "label": "Id",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "Person",
+                                  "label": "Person",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "date_of",
+                                  "label": "Date Of",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "City",
+                                  "label": "City",
+                                  "columnType": "lookup",
+                                  "lookupEntity": "3c4c6ca2-534b-472a-a05c-2b1a42fc3f5c",
+                                  "lookupField": "Id",
+                                  "_expanded": false
+                                }
+                              ],
+                              "components": [
+                                {
+                                  "type": "tbody",
+                                  "draggable": [
+                                    "table"
+                                  ],
+                                  "droppable": [
+                                    "tr"
+                                  ],
+                                  "components": [
+                                    {
+                                      "type": "row",
+                                      "draggable": [
+                                        "thead",
+                                        "tbody",
+                                        "tfoot"
+                                      ],
+                                      "droppable": [
+                                        "th",
+                                        "td"
+                                      ],
+                                      "classes": [
+                                        "row"
+                                      ],
+                                      "components": [
+                                        {
+                                          "type": "cell",
+                                          "draggable": [
+                                            "tr"
+                                          ],
+                                          "classes": [
+                                            "cell"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "chart-color": "#2c3e50"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "head": {
+                    "type": "head"
+                  },
+                  "docEl": {
+                    "tagName": "html"
+                  }
+                },
+                "id": "IWirE4XhuA05SG4w"
+              }
+            ],
+            "id": "page-person-0",
+            "route_path": "/person"
+          },
+          {
+            "name": "City",
+            "frames": [
+              {
+                "component": {
+                  "type": "wrapper",
+                  "stylable": [
+                    "background",
+                    "background-color",
+                    "background-image",
+                    "background-repeat",
+                    "background-attachment",
+                    "background-position",
+                    "background-size"
+                  ],
+                  "components": [
+                    {
+                      "attributes": {
+                        "id": "i6372"
+                      },
+                      "components": [
+                        {
+                          "tagName": "nav",
+                          "attributes": {
+                            "id": "in7x5"
+                          },
+                          "components": [
+                            {
+                              "tagName": "h2",
+                              "type": "text",
+                              "attributes": {
+                                "id": "inq8b"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "BESSER"
+                                }
+                              ]
+                            },
+                            {
+                              "attributes": {
+                                "id": "iuqln"
+                              },
+                              "components": [
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/person",
+                                    "id": "igy3w"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Person"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/city",
+                                    "id": "iqbac"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "City"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "attributes": {
+                                "id": "ibaau"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "\u00a9 2026 BESSER. All rights reserved."
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tagName": "main",
+                          "attributes": {
+                            "id": "i6hi3"
+                          },
+                          "components": [
+                            {
+                              "tagName": "h1",
+                              "type": "text",
+                              "attributes": {
+                                "id": "ie56i"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "City"
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "p",
+                              "type": "text",
+                              "attributes": {
+                                "id": "is0s1"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "Manage City data"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "table",
+                              "style": "",
+                              "classes": [
+                                "has-data-binding"
+                              ],
+                              "attributes": {
+                                "chart-color": "#2c3e50",
+                                "chart-title": "City List",
+                                "data-source": "3c4c6ca2-534b-472a-a05c-2b1a42fc3f5c",
+                                "show-header": "true",
+                                "striped-rows": "false",
+                                "show-pagination": "true",
+                                "rows-per-page": "5",
+                                "action-buttons": "true",
+                                "columns": [
+                                  {
+                                    "field": "Id",
+                                    "label": "Id",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "City",
+                                    "label": "City",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "Person",
+                                    "label": "Person",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "0627952d-ad4c-44d2-a32c-03baeca15215",
+                                    "lookupField": "id",
+                                    "_expanded": false
+                                  }
+                                ],
+                                "id": "table-city-1",
+                                "filter": ""
+                              },
+                              "chart-title": "City List",
+                              "data-source": "3c4c6ca2-534b-472a-a05c-2b1a42fc3f5c",
+                              "show-header": "true",
+                              "striped-rows": "false",
+                              "show-pagination": "true",
+                              "action-buttons": "true",
+                              "rows-per-page": "5",
+                              "filter": "",
+                              "columns": [
+                                {
+                                  "field": "Id",
+                                  "label": "Id",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "City",
+                                  "label": "City",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "Person",
+                                  "label": "Person",
+                                  "columnType": "lookup",
+                                  "lookupEntity": "0627952d-ad4c-44d2-a32c-03baeca15215",
+                                  "lookupField": "id",
+                                  "_expanded": false
+                                }
+                              ],
+                              "components": [
+                                {
+                                  "type": "tbody",
+                                  "draggable": [
+                                    "table"
+                                  ],
+                                  "droppable": [
+                                    "tr"
+                                  ],
+                                  "components": [
+                                    {
+                                      "type": "row",
+                                      "draggable": [
+                                        "thead",
+                                        "tbody",
+                                        "tfoot"
+                                      ],
+                                      "droppable": [
+                                        "th",
+                                        "td"
+                                      ],
+                                      "classes": [
+                                        "row"
+                                      ],
+                                      "components": [
+                                        {
+                                          "type": "cell",
+                                          "draggable": [
+                                            "tr"
+                                          ],
+                                          "classes": [
+                                            "cell"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "chart-color": "#2c3e50"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "head": {
+                    "type": "head"
+                  },
+                  "docEl": {
+                    "tagName": "html"
+                  }
+                },
+                "id": "OOWuHfuOt2epLtGh"
+              }
+            ],
+            "id": "page-city-1",
+            "route_path": "/city"
+          }
+        ],
+        "styles": [
+          {
+            "selectors": [
+              "#i2nul"
+            ],
+            "style": {
+              "margin-top": "0",
+              "font-size": "24px",
+              "margin-bottom": "30px",
+              "font-weight": "bold"
+            }
+          },
+          {
+            "selectors": [
+              "#iqz5k"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "rgba(255,255,255,0.2)",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#i29bl"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "transparent",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#ido3o"
+            ],
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "flex": "1"
+            }
+          },
+          {
+            "selectors": [
+              "#i4kk5"
+            ],
+            "style": {
+              "margin-top": "auto",
+              "padding-top": "20px",
+              "border-top": "1px solid rgba(255,255,255,0.2)",
+              "font-size": "11px",
+              "opacity": "0.8",
+              "text-align": "center"
+            }
+          },
+          {
+            "selectors": [
+              "#ic9ss"
+            ],
+            "style": {
+              "width": "250px",
+              "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+              "color": "white",
+              "padding": "20px",
+              "overflow-y": "auto",
+              "display": "flex",
+              "flex-direction": "column"
+            }
+          },
+          {
+            "selectors": [
+              "#ip6li"
+            ],
+            "style": {
+              "margin-top": "0",
+              "color": "#333",
+              "font-size": "32px",
+              "margin-bottom": "10px"
+            }
+          },
+          {
+            "selectors": [
+              "#ip3ch"
+            ],
+            "style": {
+              "color": "#666",
+              "margin-bottom": "30px"
+            }
+          },
+          {
+            "selectors": [
+              "#table-person-0"
+            ],
+            "style": {
+              "width": "100%",
+              "min-height": "400px"
+            }
+          },
+          {
+            "selectors": [
+              "#ii1x4"
+            ],
+            "style": {
+              "flex": "1",
+              "padding": "40px",
+              "overflow-y": "auto",
+              "background": "#f5f5f5"
+            }
+          },
+          {
+            "selectors": [
+              "#i7gqi"
+            ],
+            "style": {
+              "display": "flex",
+              "height": "100vh",
+              "font-family": "Arial, sans-serif"
+            }
+          },
+          {
+            "selectors": [
+              "#inq8b"
+            ],
+            "style": {
+              "margin-top": "0",
+              "font-size": "24px",
+              "margin-bottom": "30px",
+              "font-weight": "bold"
+            }
+          },
+          {
+            "selectors": [
+              "#igy3w"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "transparent",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#iqbac"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "rgba(255,255,255,0.2)",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#iuqln"
+            ],
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "flex": "1"
+            }
+          },
+          {
+            "selectors": [
+              "#ibaau"
+            ],
+            "style": {
+              "margin-top": "auto",
+              "padding-top": "20px",
+              "border-top": "1px solid rgba(255,255,255,0.2)",
+              "font-size": "11px",
+              "opacity": "0.8",
+              "text-align": "center"
+            }
+          },
+          {
+            "selectors": [
+              "#in7x5"
+            ],
+            "style": {
+              "width": "250px",
+              "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+              "color": "white",
+              "padding": "20px",
+              "overflow-y": "auto",
+              "display": "flex",
+              "flex-direction": "column"
+            }
+          },
+          {
+            "selectors": [
+              "#ie56i"
+            ],
+            "style": {
+              "margin-top": "0",
+              "color": "#333",
+              "font-size": "32px",
+              "margin-bottom": "10px"
+            }
+          },
+          {
+            "selectors": [
+              "#is0s1"
+            ],
+            "style": {
+              "color": "#666",
+              "margin-bottom": "30px"
+            }
+          },
+          {
+            "selectors": [
+              "#table-city-1"
+            ],
+            "style": {
+              "width": "100%",
+              "min-height": "400px"
+            }
+          },
+          {
+            "selectors": [
+              "#i6hi3"
+            ],
+            "style": {
+              "flex": "1",
+              "padding": "40px",
+              "overflow-y": "auto",
+              "background": "#f5f5f5"
+            }
+          },
+          {
+            "selectors": [
+              "#i6372"
+            ],
+            "style": {
+              "display": "flex",
+              "height": "100vh",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        ],
+        "assets": [],
+        "symbols": [],
+        "version": "0.21.13"
+      },
+      "lastUpdate": "2026-04-24T11:36:20.488Z"
+    }
+  ]
+}
