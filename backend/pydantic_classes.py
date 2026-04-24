@@ -13,14 +13,12 @@ from pydantic import BaseModel, field_validator
 ############################################
 class CityCreate(BaseModel):
     City: str
-    Id: str
     person: Optional[List[int]] = None  # 1:N Relationship
 
 
 class PersonCreate(BaseModel):
     date_of: date
-    id: str
-    Person: str
+    name: str
     city: int  # N:1 Relationship (mandatory)
 
 

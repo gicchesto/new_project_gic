@@ -16,15 +16,13 @@ Person = Class(name="Person")
 City = Class(name="City")
 
 # Person class attributes and methods
-Person_id: Property = Property(name="id", type=StringType)
-Person_Person: Property = Property(name="Person", type=StringType)
+Person_name: Property = Property(name="name", type=StringType)
 Person_date_of: Property = Property(name="date_of", type=DateType)
-Person.attributes={Person_Person, Person_date_of, Person_id}
+Person.attributes={Person_date_of, Person_name}
 
 # City class attributes and methods
-City_Id: Property = Property(name="Id", type=StringType)
 City_City: Property = Property(name="City", type=StringType)
-City.attributes={City_City, City_Id}
+City.attributes={City_City}
 
 # Relationships
 inCity: BinaryAssociation = BinaryAssociation(
@@ -73,93 +71,92 @@ from besser.BUML.metamodel.gui.binding import DataBinding
 # Screen: wrapper
 wrapper = Screen(name="wrapper", description="Person", view_elements=set(), is_main_page=True, route_path="/person", screen_size="Medium")
 wrapper.component_id = "page-person-0"
-i2nul = Text(
-    name="i2nul",
+ih7xo = Text(
+    name="ih7xo",
     content="BESSER",
     description="Text element",
     styling=Styling(size=Size(font_size="24px", font_weight="bold", margin_top="0", margin_bottom="30px"), color=Color(color_palette="default")),
-    component_id="i2nul",
+    component_id="ih7xo",
     tag_name="h2",
     display_order=0,
-    custom_attributes={"id": "i2nul"}
+    custom_attributes={"id": "ih7xo"}
 )
-iqz5k = Link(
-    name="iqz5k",
+iy0ya = Link(
+    name="iy0ya",
     description="Link element",
     label="Person",
     url="/person",
     styling=Styling(size=Size(padding="10px 15px", text_decoration="none", margin_bottom="5px"), position=Position(display="block"), color=Color(background_color="rgba(255,255,255,0.2)", text_color="white", color_palette="default", border_radius="4px")),
-    component_id="iqz5k",
+    component_id="iy0ya",
     tag_name="a",
     display_order=0,
-    custom_attributes={"href": "/person", "id": "iqz5k"}
+    custom_attributes={"href": "/person", "id": "iy0ya"}
 )
-i29bl = Link(
-    name="i29bl",
+i16pc = Link(
+    name="i16pc",
     description="Link element",
     label="City",
     url="/city",
     styling=Styling(size=Size(padding="10px 15px", text_decoration="none", margin_bottom="5px"), position=Position(display="block"), color=Color(background_color="transparent", text_color="white", color_palette="default", border_radius="4px")),
-    component_id="i29bl",
+    component_id="i16pc",
     tag_name="a",
     display_order=1,
-    custom_attributes={"href": "/city", "id": "i29bl"}
+    custom_attributes={"href": "/city", "id": "i16pc"}
 )
-ido3o = ViewContainer(
-    name="ido3o",
+ivvd4 = ViewContainer(
+    name="ivvd4",
     description=" component",
-    view_elements={iqz5k, i29bl},
+    view_elements={iy0ya, i16pc},
     styling=Styling(position=Position(display="flex"), color=Color(color_palette="default"), layout=Layout(layout_type=LayoutType.FLEX, flex_direction="column", flex="1")),
-    component_id="ido3o",
+    component_id="ivvd4",
     display_order=1,
-    custom_attributes={"id": "ido3o"}
+    custom_attributes={"id": "ivvd4"}
 )
-ido3o_layout = Layout(layout_type=LayoutType.FLEX, flex_direction="column", flex="1")
-ido3o.layout = ido3o_layout
-i4kk5 = Text(
-    name="i4kk5",
+ivvd4_layout = Layout(layout_type=LayoutType.FLEX, flex_direction="column", flex="1")
+ivvd4.layout = ivvd4_layout
+iobgf = Text(
+    name="iobgf",
     content="© 2026 BESSER. All rights reserved.",
     description="Text element",
     styling=Styling(size=Size(font_size="11px", padding_top="20px", margin_top="auto"), position=Position(alignment=Alignment.CENTER), color=Color(opacity="0.8", color_palette="default", border_top="1px solid rgba(255,255,255,0.2)")),
-    component_id="i4kk5",
+    component_id="iobgf",
     display_order=2,
-    custom_attributes={"id": "i4kk5"}
+    custom_attributes={"id": "iobgf"}
 )
-ic9ss = ViewContainer(
-    name="ic9ss",
+i8d4f = ViewContainer(
+    name="i8d4f",
     description="nav container",
-    view_elements={i2nul, ido3o, i4kk5},
+    view_elements={ih7xo, ivvd4, iobgf},
     styling=Styling(size=Size(width="250px", padding="20px", unit_size=UnitSize.PIXELS), position=Position(display="flex", overflow_y="auto"), color=Color(background_color="linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)", text_color="white", color_palette="default"), layout=Layout(layout_type=LayoutType.FLEX, flex_direction="column")),
-    component_id="ic9ss",
+    component_id="i8d4f",
     tag_name="nav",
     display_order=0,
-    custom_attributes={"id": "ic9ss"}
+    custom_attributes={"id": "i8d4f"}
 )
-ic9ss_layout = Layout(layout_type=LayoutType.FLEX, flex_direction="column")
-ic9ss.layout = ic9ss_layout
-ip6li = Text(
-    name="ip6li",
+i8d4f_layout = Layout(layout_type=LayoutType.FLEX, flex_direction="column")
+i8d4f.layout = i8d4f_layout
+ijaar = Text(
+    name="ijaar",
     content="Person",
     description="Text element",
     styling=Styling(size=Size(font_size="32px", margin_top="0", margin_bottom="10px"), color=Color(text_color="#333", color_palette="default")),
-    component_id="ip6li",
+    component_id="ijaar",
     tag_name="h1",
     display_order=0,
-    custom_attributes={"id": "ip6li"}
+    custom_attributes={"id": "ijaar"}
 )
-ip3ch = Text(
-    name="ip3ch",
+ikb2n = Text(
+    name="ikb2n",
     content="Manage Person data",
     description="Text element",
     styling=Styling(size=Size(margin_bottom="30px"), color=Color(text_color="#666", color_palette="default")),
-    component_id="ip3ch",
+    component_id="ikb2n",
     tag_name="p",
     display_order=1,
-    custom_attributes={"id": "ip3ch"}
+    custom_attributes={"id": "ikb2n"}
 )
-table_person_0_col_0 = FieldColumn(label="Id", field=Person_id)
-table_person_0_col_1 = FieldColumn(label="Person", field=Person_Person)
-table_person_0_col_2 = FieldColumn(label="Date Of", field=Person_date_of)
+table_person_0_col_0 = FieldColumn(label="Name", field=Person_name)
+table_person_0_col_1 = FieldColumn(label="Date Of", field=Person_date_of)
 table_person_0 = Table(
     name="table_person_0",
     title="Person List",
@@ -169,12 +166,12 @@ table_person_0 = Table(
     show_pagination=True,
     rows_per_page=5,
     action_buttons=True,
-    columns=[table_person_0_col_0, table_person_0_col_1, table_person_0_col_2],
+    columns=[table_person_0_col_0, table_person_0_col_1],
     styling=Styling(size=Size(width="100%", min_height="400px", unit_size=UnitSize.PERCENTAGE), color=Color(color_palette="default", primary_color="#2c3e50")),
     component_id="table-person-0",
     display_order=2,
     css_classes=["has-data-binding"],
-    custom_attributes={"chart-color": "#2c3e50", "chart-title": "Person List", "data-source": "0627952d-ad4c-44d2-a32c-03baeca15215", "show-header": "true", "striped-rows": "false", "show-pagination": "true", "rows-per-page": "5", "action-buttons": "true", "columns": [{'field': 'id', 'label': 'Id', 'columnType': 'field', '_expanded': False}, {'field': 'Person', 'label': 'Person', 'columnType': 'field', '_expanded': False}, {'field': 'date_of', 'label': 'Date Of', 'columnType': 'field', '_expanded': False}, {'field': 'City', 'label': 'City', 'columnType': 'lookup', 'lookupEntity': '3c4c6ca2-534b-472a-a05c-2b1a42fc3f5c', 'lookupField': 'Id', '_expanded': False}], "id": "table-person-0", "filter": ""}
+    custom_attributes={"chart-color": "#2c3e50", "chart-title": "Person List", "data-source": "0627952d-ad4c-44d2-a32c-03baeca15215", "show-header": "true", "striped-rows": "false", "show-pagination": "true", "rows-per-page": "5", "action-buttons": "true", "columns": [{'field': 'name', 'label': 'Name', 'columnType': 'field', '_expanded': False}, {'field': 'date_of', 'label': 'Date Of', 'columnType': 'field', '_expanded': False}, {'field': 'City', 'label': 'City', 'columnType': 'lookup', 'lookupEntity': '3c4c6ca2-534b-472a-a05c-2b1a42fc3f5c', 'lookupField': 'City', '_expanded': False}], "id": "table-person-0", "filter": ""}
 )
 domain_model_ref = globals().get('domain_model') or next((v for k, v in globals().items() if k.startswith('domain_model') and hasattr(v, 'get_class_by_name')), None)
 table_person_0_binding_domain = None
@@ -187,121 +184,120 @@ else:
     table_person_0_binding = None
 if table_person_0_binding:
     table_person_0.data_binding = table_person_0_binding
-ii1x4 = ViewContainer(
-    name="ii1x4",
+iypbf = ViewContainer(
+    name="iypbf",
     description="main container",
-    view_elements={ip6li, ip3ch, table_person_0},
+    view_elements={ijaar, ikb2n, table_person_0},
     styling=Styling(size=Size(padding="40px"), position=Position(overflow_y="auto"), color=Color(background_color="#f5f5f5", color_palette="default"), layout=Layout(flex="1")),
-    component_id="ii1x4",
+    component_id="iypbf",
     tag_name="main",
     display_order=1,
-    custom_attributes={"id": "ii1x4"}
+    custom_attributes={"id": "iypbf"}
 )
-ii1x4_layout = Layout(flex="1")
-ii1x4.layout = ii1x4_layout
-i7gqi = ViewContainer(
-    name="i7gqi",
+iypbf_layout = Layout(flex="1")
+iypbf.layout = iypbf_layout
+is13x = ViewContainer(
+    name="is13x",
     description=" component",
-    view_elements={ic9ss, ii1x4},
+    view_elements={i8d4f, iypbf},
     styling=Styling(size=Size(height="100vh", font_family="Arial, sans-serif"), position=Position(display="flex"), color=Color(color_palette="default"), layout=Layout(layout_type=LayoutType.FLEX)),
-    component_id="i7gqi",
+    component_id="is13x",
     display_order=0,
-    custom_attributes={"id": "i7gqi"}
+    custom_attributes={"id": "is13x"}
 )
-i7gqi_layout = Layout(layout_type=LayoutType.FLEX)
-i7gqi.layout = i7gqi_layout
-wrapper.view_elements = {i7gqi}
+is13x_layout = Layout(layout_type=LayoutType.FLEX)
+is13x.layout = is13x_layout
+wrapper.view_elements = {is13x}
 
 
 # Screen: wrapper_2
 wrapper_2 = Screen(name="wrapper_2", description="City", view_elements=set(), route_path="/city", screen_size="Medium")
 wrapper_2.component_id = "page-city-1"
-inq8b = Text(
-    name="inq8b",
+itwho = Text(
+    name="itwho",
     content="BESSER",
     description="Text element",
     styling=Styling(size=Size(font_size="24px", font_weight="bold", margin_top="0", margin_bottom="30px"), color=Color(color_palette="default")),
-    component_id="inq8b",
+    component_id="itwho",
     tag_name="h2",
     display_order=0,
-    custom_attributes={"id": "inq8b"}
+    custom_attributes={"id": "itwho"}
 )
-igy3w = Link(
-    name="igy3w",
+imcp2 = Link(
+    name="imcp2",
     description="Link element",
     label="Person",
     url="/person",
     styling=Styling(size=Size(padding="10px 15px", text_decoration="none", margin_bottom="5px"), position=Position(display="block"), color=Color(background_color="transparent", text_color="white", color_palette="default", border_radius="4px")),
-    component_id="igy3w",
+    component_id="imcp2",
     tag_name="a",
     display_order=0,
-    custom_attributes={"href": "/person", "id": "igy3w"}
+    custom_attributes={"href": "/person", "id": "imcp2"}
 )
-iqbac = Link(
-    name="iqbac",
+i66ew = Link(
+    name="i66ew",
     description="Link element",
     label="City",
     url="/city",
     styling=Styling(size=Size(padding="10px 15px", text_decoration="none", margin_bottom="5px"), position=Position(display="block"), color=Color(background_color="rgba(255,255,255,0.2)", text_color="white", color_palette="default", border_radius="4px")),
-    component_id="iqbac",
+    component_id="i66ew",
     tag_name="a",
     display_order=1,
-    custom_attributes={"href": "/city", "id": "iqbac"}
+    custom_attributes={"href": "/city", "id": "i66ew"}
 )
-iuqln = ViewContainer(
-    name="iuqln",
+i9zih = ViewContainer(
+    name="i9zih",
     description=" component",
-    view_elements={igy3w, iqbac},
+    view_elements={imcp2, i66ew},
     styling=Styling(position=Position(display="flex"), color=Color(color_palette="default"), layout=Layout(layout_type=LayoutType.FLEX, flex_direction="column", flex="1")),
-    component_id="iuqln",
+    component_id="i9zih",
     display_order=1,
-    custom_attributes={"id": "iuqln"}
+    custom_attributes={"id": "i9zih"}
 )
-iuqln_layout = Layout(layout_type=LayoutType.FLEX, flex_direction="column", flex="1")
-iuqln.layout = iuqln_layout
-ibaau = Text(
-    name="ibaau",
+i9zih_layout = Layout(layout_type=LayoutType.FLEX, flex_direction="column", flex="1")
+i9zih.layout = i9zih_layout
+ikdsh = Text(
+    name="ikdsh",
     content="© 2026 BESSER. All rights reserved.",
     description="Text element",
     styling=Styling(size=Size(font_size="11px", padding_top="20px", margin_top="auto"), position=Position(alignment=Alignment.CENTER), color=Color(opacity="0.8", color_palette="default", border_top="1px solid rgba(255,255,255,0.2)")),
-    component_id="ibaau",
+    component_id="ikdsh",
     display_order=2,
-    custom_attributes={"id": "ibaau"}
+    custom_attributes={"id": "ikdsh"}
 )
-in7x5 = ViewContainer(
-    name="in7x5",
+iugo8 = ViewContainer(
+    name="iugo8",
     description="nav container",
-    view_elements={inq8b, iuqln, ibaau},
+    view_elements={itwho, i9zih, ikdsh},
     styling=Styling(size=Size(width="250px", padding="20px", unit_size=UnitSize.PIXELS), position=Position(display="flex", overflow_y="auto"), color=Color(background_color="linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)", text_color="white", color_palette="default"), layout=Layout(layout_type=LayoutType.FLEX, flex_direction="column")),
-    component_id="in7x5",
+    component_id="iugo8",
     tag_name="nav",
     display_order=0,
-    custom_attributes={"id": "in7x5"}
+    custom_attributes={"id": "iugo8"}
 )
-in7x5_layout = Layout(layout_type=LayoutType.FLEX, flex_direction="column")
-in7x5.layout = in7x5_layout
-ie56i = Text(
-    name="ie56i",
+iugo8_layout = Layout(layout_type=LayoutType.FLEX, flex_direction="column")
+iugo8.layout = iugo8_layout
+ihbdj = Text(
+    name="ihbdj",
     content="City",
     description="Text element",
     styling=Styling(size=Size(font_size="32px", margin_top="0", margin_bottom="10px"), color=Color(text_color="#333", color_palette="default")),
-    component_id="ie56i",
+    component_id="ihbdj",
     tag_name="h1",
     display_order=0,
-    custom_attributes={"id": "ie56i"}
+    custom_attributes={"id": "ihbdj"}
 )
-is0s1 = Text(
-    name="is0s1",
+ihkns = Text(
+    name="ihkns",
     content="Manage City data",
     description="Text element",
     styling=Styling(size=Size(margin_bottom="30px"), color=Color(text_color="#666", color_palette="default")),
-    component_id="is0s1",
+    component_id="ihkns",
     tag_name="p",
     display_order=1,
-    custom_attributes={"id": "is0s1"}
+    custom_attributes={"id": "ihkns"}
 )
-table_city_1_col_0 = FieldColumn(label="Id", field=City_Id)
-table_city_1_col_1 = FieldColumn(label="City", field=City_City)
+table_city_1_col_0 = FieldColumn(label="City", field=City_City)
 table_city_1 = Table(
     name="table_city_1",
     title="City List",
@@ -311,12 +307,12 @@ table_city_1 = Table(
     show_pagination=True,
     rows_per_page=5,
     action_buttons=True,
-    columns=[table_city_1_col_0, table_city_1_col_1],
+    columns=[table_city_1_col_0],
     styling=Styling(size=Size(width="100%", min_height="400px", unit_size=UnitSize.PERCENTAGE), color=Color(color_palette="default", primary_color="#2c3e50")),
     component_id="table-city-1",
     display_order=2,
     css_classes=["has-data-binding"],
-    custom_attributes={"chart-color": "#2c3e50", "chart-title": "City List", "data-source": "3c4c6ca2-534b-472a-a05c-2b1a42fc3f5c", "show-header": "true", "striped-rows": "false", "show-pagination": "true", "rows-per-page": "5", "action-buttons": "true", "columns": [{'field': 'Id', 'label': 'Id', 'columnType': 'field', '_expanded': False}, {'field': 'City', 'label': 'City', 'columnType': 'field', '_expanded': False}, {'field': 'Person', 'label': 'Person', 'columnType': 'lookup', 'lookupEntity': '0627952d-ad4c-44d2-a32c-03baeca15215', 'lookupField': 'id', '_expanded': False}], "id": "table-city-1", "filter": ""}
+    custom_attributes={"chart-color": "#2c3e50", "chart-title": "City List", "data-source": "3c4c6ca2-534b-472a-a05c-2b1a42fc3f5c", "show-header": "true", "striped-rows": "false", "show-pagination": "true", "rows-per-page": "5", "action-buttons": "true", "columns": [{'field': 'City', 'label': 'City', 'columnType': 'field', '_expanded': False}, {'field': 'Person', 'label': 'Person', 'columnType': 'lookup', 'lookupEntity': '0627952d-ad4c-44d2-a32c-03baeca15215', 'lookupField': 'name', '_expanded': False}], "id": "table-city-1", "filter": ""}
 )
 domain_model_ref = globals().get('domain_model') or next((v for k, v in globals().items() if k.startswith('domain_model') and hasattr(v, 'get_class_by_name')), None)
 table_city_1_binding_domain = None
@@ -329,30 +325,30 @@ else:
     table_city_1_binding = None
 if table_city_1_binding:
     table_city_1.data_binding = table_city_1_binding
-i6hi3 = ViewContainer(
-    name="i6hi3",
+is6sa = ViewContainer(
+    name="is6sa",
     description="main container",
-    view_elements={ie56i, is0s1, table_city_1},
+    view_elements={ihbdj, ihkns, table_city_1},
     styling=Styling(size=Size(padding="40px"), position=Position(overflow_y="auto"), color=Color(background_color="#f5f5f5", color_palette="default"), layout=Layout(flex="1")),
-    component_id="i6hi3",
+    component_id="is6sa",
     tag_name="main",
     display_order=1,
-    custom_attributes={"id": "i6hi3"}
+    custom_attributes={"id": "is6sa"}
 )
-i6hi3_layout = Layout(flex="1")
-i6hi3.layout = i6hi3_layout
-i6372 = ViewContainer(
-    name="i6372",
+is6sa_layout = Layout(flex="1")
+is6sa.layout = is6sa_layout
+i3ng5 = ViewContainer(
+    name="i3ng5",
     description=" component",
-    view_elements={in7x5, i6hi3},
+    view_elements={iugo8, is6sa},
     styling=Styling(size=Size(height="100vh", font_family="Arial, sans-serif"), position=Position(display="flex"), color=Color(color_palette="default"), layout=Layout(layout_type=LayoutType.FLEX)),
-    component_id="i6372",
+    component_id="i3ng5",
     display_order=0,
-    custom_attributes={"id": "i6372"}
+    custom_attributes={"id": "i3ng5"}
 )
-i6372_layout = Layout(layout_type=LayoutType.FLEX)
-i6372.layout = i6372_layout
-wrapper_2.view_elements = {i6372}
+i3ng5_layout = Layout(layout_type=LayoutType.FLEX)
+i3ng5.layout = i3ng5_layout
+wrapper_2.view_elements = {i3ng5}
 
 gui_module = Module(
     name="GUI_Module",

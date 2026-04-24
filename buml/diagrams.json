@@ -24,45 +24,22 @@
               "x": -405,
               "y": -221,
               "width": 160,
-              "height": 130
+              "height": 100
             },
             "attributes": [
-              "bd80139b-977f-4f1a-a8a5-b69607f8eebb",
               "84c6131a-b38b-4941-8192-755418af8d58",
               "223efc48-a83a-4a30-9a7e-d9ee1cbb33eb"
             ],
             "methods": []
           },
-          "bd80139b-977f-4f1a-a8a5-b69607f8eebb": {
-            "id": "bd80139b-977f-4f1a-a8a5-b69607f8eebb",
-            "name": "id",
+          "84c6131a-b38b-4941-8192-755418af8d58": {
+            "id": "84c6131a-b38b-4941-8192-755418af8d58",
+            "name": "name",
             "type": "ClassAttribute",
             "owner": "0627952d-ad4c-44d2-a32c-03baeca15215",
             "bounds": {
               "x": -404.5,
               "y": -180.5,
-              "width": 159,
-              "height": 30
-            },
-            "code": "",
-            "visibility": "public",
-            "attributeType": "str",
-            "implementationType": "none",
-            "stateMachineId": "",
-            "quantumCircuitId": "",
-            "isOptional": false,
-            "isDerived": false,
-            "isId": false,
-            "isExternalId": false
-          },
-          "84c6131a-b38b-4941-8192-755418af8d58": {
-            "id": "84c6131a-b38b-4941-8192-755418af8d58",
-            "name": "Person",
-            "type": "ClassAttribute",
-            "owner": "0627952d-ad4c-44d2-a32c-03baeca15215",
-            "bounds": {
-              "x": -404.5,
-              "y": -150.5,
               "width": 159,
               "height": 30
             },
@@ -84,7 +61,7 @@
             "owner": "0627952d-ad4c-44d2-a32c-03baeca15215",
             "bounds": {
               "x": -404.5,
-              "y": -120.5,
+              "y": -150.5,
               "width": 159,
               "height": 30
             },
@@ -108,35 +85,12 @@
               "x": 40,
               "y": -230,
               "width": 160,
-              "height": 100
+              "height": 70
             },
             "attributes": [
-              "ff93d5e4-ed9a-48c9-8bec-cb35ef2f75b7",
               "bb14d9dd-60e3-43c1-8331-033fbf55e62b"
             ],
             "methods": []
-          },
-          "ff93d5e4-ed9a-48c9-8bec-cb35ef2f75b7": {
-            "id": "ff93d5e4-ed9a-48c9-8bec-cb35ef2f75b7",
-            "name": "Id",
-            "type": "ClassAttribute",
-            "owner": "3c4c6ca2-534b-472a-a05c-2b1a42fc3f5c",
-            "bounds": {
-              "x": 40.5,
-              "y": -189.5,
-              "width": 159,
-              "height": 30
-            },
-            "code": "",
-            "visibility": "public",
-            "attributeType": "str",
-            "implementationType": "none",
-            "stateMachineId": "",
-            "quantumCircuitId": "",
-            "isOptional": false,
-            "isDerived": false,
-            "isId": false,
-            "isExternalId": false
           },
           "bb14d9dd-60e3-43c1-8331-033fbf55e62b": {
             "id": "bb14d9dd-60e3-43c1-8331-033fbf55e62b",
@@ -145,7 +99,7 @@
             "owner": "3c4c6ca2-534b-472a-a05c-2b1a42fc3f5c",
             "bounds": {
               "x": 40.5,
-              "y": -159.5,
+              "y": -189.5,
               "width": 159,
               "height": 30
             },
@@ -169,7 +123,7 @@
             "owner": null,
             "bounds": {
               "x": -245,
-              "y": -185.5,
+              "y": -200.5,
               "width": 285,
               "height": 48.60000038146973
             },
@@ -200,7 +154,7 @@
         },
         "assessments": {}
       },
-      "lastUpdate": "2026-04-24T11:42:45.413Z"
+      "lastUpdate": "2026-04-24T12:11:38.807Z"
     }
   ],
   "GUINoCodeDiagram": [
@@ -227,20 +181,20 @@
                   "components": [
                     {
                       "attributes": {
-                        "id": "i7gqi"
+                        "id": "is13x"
                       },
                       "components": [
                         {
                           "tagName": "nav",
                           "attributes": {
-                            "id": "ic9ss"
+                            "id": "i8d4f"
                           },
                           "components": [
                             {
                               "tagName": "h2",
                               "type": "text",
                               "attributes": {
-                                "id": "i2nul"
+                                "id": "ih7xo"
                               },
                               "components": [
                                 {
@@ -251,14 +205,14 @@
                             },
                             {
                               "attributes": {
-                                "id": "ido3o"
+                                "id": "ivvd4"
                               },
                               "components": [
                                 {
                                   "type": "link",
                                   "attributes": {
                                     "href": "/person",
-                                    "id": "iqz5k"
+                                    "id": "iy0ya"
                                   },
                                   "components": [
                                     {
@@ -271,7 +225,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/city",
-                                    "id": "i29bl"
+                                    "id": "i16pc"
                                   },
                                   "components": [
                                     {
@@ -285,7 +239,7 @@
                             {
                               "type": "text",
                               "attributes": {
-                                "id": "i4kk5"
+                                "id": "iobgf"
                               },
                               "components": [
                                 {
@@ -299,14 +253,14 @@
                         {
                           "tagName": "main",
                           "attributes": {
-                            "id": "ii1x4"
+                            "id": "iypbf"
                           },
                           "components": [
                             {
                               "tagName": "h1",
                               "type": "text",
                               "attributes": {
-                                "id": "ip6li"
+                                "id": "ijaar"
                               },
                               "components": [
                                 {
@@ -319,7 +273,7 @@
                               "tagName": "p",
                               "type": "text",
                               "attributes": {
-                                "id": "ip3ch"
+                                "id": "ikb2n"
                               },
                               "components": [
                                 {
@@ -345,14 +299,8 @@
                                 "action-buttons": "true",
                                 "columns": [
                                   {
-                                    "field": "id",
-                                    "label": "Id",
-                                    "columnType": "field",
-                                    "_expanded": false
-                                  },
-                                  {
-                                    "field": "Person",
-                                    "label": "Person",
+                                    "field": "name",
+                                    "label": "Name",
                                     "columnType": "field",
                                     "_expanded": false
                                   },
@@ -367,7 +315,7 @@
                                     "label": "City",
                                     "columnType": "lookup",
                                     "lookupEntity": "3c4c6ca2-534b-472a-a05c-2b1a42fc3f5c",
-                                    "lookupField": "Id",
+                                    "lookupField": "City",
                                     "_expanded": false
                                   }
                                 ],
@@ -384,14 +332,8 @@
                               "filter": "",
                               "columns": [
                                 {
-                                  "field": "id",
-                                  "label": "Id",
-                                  "columnType": "field",
-                                  "_expanded": false
-                                },
-                                {
-                                  "field": "Person",
-                                  "label": "Person",
+                                  "field": "name",
+                                  "label": "Name",
                                   "columnType": "field",
                                   "_expanded": false
                                 },
@@ -406,7 +348,7 @@
                                   "label": "City",
                                   "columnType": "lookup",
                                   "lookupEntity": "3c4c6ca2-534b-472a-a05c-2b1a42fc3f5c",
-                                  "lookupField": "Id",
+                                  "lookupField": "City",
                                   "_expanded": false
                                 }
                               ],
@@ -463,7 +405,7 @@
                     "tagName": "html"
                   }
                 },
-                "id": "IWirE4XhuA05SG4w"
+                "id": "ZZondeKajibWPhi5"
               }
             ],
             "id": "page-person-0",
@@ -487,20 +429,20 @@
                   "components": [
                     {
                       "attributes": {
-                        "id": "i6372"
+                        "id": "i3ng5"
                       },
                       "components": [
                         {
                           "tagName": "nav",
                           "attributes": {
-                            "id": "in7x5"
+                            "id": "iugo8"
                           },
                           "components": [
                             {
                               "tagName": "h2",
                               "type": "text",
                               "attributes": {
-                                "id": "inq8b"
+                                "id": "itwho"
                               },
                               "components": [
                                 {
@@ -511,14 +453,14 @@
                             },
                             {
                               "attributes": {
-                                "id": "iuqln"
+                                "id": "i9zih"
                               },
                               "components": [
                                 {
                                   "type": "link",
                                   "attributes": {
                                     "href": "/person",
-                                    "id": "igy3w"
+                                    "id": "imcp2"
                                   },
                                   "components": [
                                     {
@@ -531,7 +473,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/city",
-                                    "id": "iqbac"
+                                    "id": "i66ew"
                                   },
                                   "components": [
                                     {
@@ -545,7 +487,7 @@
                             {
                               "type": "text",
                               "attributes": {
-                                "id": "ibaau"
+                                "id": "ikdsh"
                               },
                               "components": [
                                 {
@@ -559,14 +501,14 @@
                         {
                           "tagName": "main",
                           "attributes": {
-                            "id": "i6hi3"
+                            "id": "is6sa"
                           },
                           "components": [
                             {
                               "tagName": "h1",
                               "type": "text",
                               "attributes": {
-                                "id": "ie56i"
+                                "id": "ihbdj"
                               },
                               "components": [
                                 {
@@ -579,7 +521,7 @@
                               "tagName": "p",
                               "type": "text",
                               "attributes": {
-                                "id": "is0s1"
+                                "id": "ihkns"
                               },
                               "components": [
                                 {
@@ -605,12 +547,6 @@
                                 "action-buttons": "true",
                                 "columns": [
                                   {
-                                    "field": "Id",
-                                    "label": "Id",
-                                    "columnType": "field",
-                                    "_expanded": false
-                                  },
-                                  {
                                     "field": "City",
                                     "label": "City",
                                     "columnType": "field",
@@ -621,7 +557,7 @@
                                     "label": "Person",
                                     "columnType": "lookup",
                                     "lookupEntity": "0627952d-ad4c-44d2-a32c-03baeca15215",
-                                    "lookupField": "id",
+                                    "lookupField": "name",
                                     "_expanded": false
                                   }
                                 ],
@@ -638,12 +574,6 @@
                               "filter": "",
                               "columns": [
                                 {
-                                  "field": "Id",
-                                  "label": "Id",
-                                  "columnType": "field",
-                                  "_expanded": false
-                                },
-                                {
                                   "field": "City",
                                   "label": "City",
                                   "columnType": "field",
@@ -654,7 +584,7 @@
                                   "label": "Person",
                                   "columnType": "lookup",
                                   "lookupEntity": "0627952d-ad4c-44d2-a32c-03baeca15215",
-                                  "lookupField": "id",
+                                  "lookupField": "name",
                                   "_expanded": false
                                 }
                               ],
@@ -711,7 +641,7 @@
                     "tagName": "html"
                   }
                 },
-                "id": "OOWuHfuOt2epLtGh"
+                "id": "hcnRLxBdKYFN6hdY"
               }
             ],
             "id": "page-city-1",
@@ -721,7 +651,7 @@
         "styles": [
           {
             "selectors": [
-              "#i2nul"
+              "#ih7xo"
             ],
             "style": {
               "margin-top": "0",
@@ -732,7 +662,7 @@
           },
           {
             "selectors": [
-              "#iqz5k"
+              "#iy0ya"
             ],
             "style": {
               "color": "white",
@@ -746,7 +676,7 @@
           },
           {
             "selectors": [
-              "#i29bl"
+              "#i16pc"
             ],
             "style": {
               "color": "white",
@@ -760,7 +690,7 @@
           },
           {
             "selectors": [
-              "#ido3o"
+              "#ivvd4"
             ],
             "style": {
               "display": "flex",
@@ -770,7 +700,7 @@
           },
           {
             "selectors": [
-              "#i4kk5"
+              "#iobgf"
             ],
             "style": {
               "margin-top": "auto",
@@ -783,7 +713,7 @@
           },
           {
             "selectors": [
-              "#ic9ss"
+              "#i8d4f"
             ],
             "style": {
               "width": "250px",
@@ -797,7 +727,7 @@
           },
           {
             "selectors": [
-              "#ip6li"
+              "#ijaar"
             ],
             "style": {
               "margin-top": "0",
@@ -808,7 +738,7 @@
           },
           {
             "selectors": [
-              "#ip3ch"
+              "#ikb2n"
             ],
             "style": {
               "color": "#666",
@@ -826,7 +756,7 @@
           },
           {
             "selectors": [
-              "#ii1x4"
+              "#iypbf"
             ],
             "style": {
               "flex": "1",
@@ -837,7 +767,7 @@
           },
           {
             "selectors": [
-              "#i7gqi"
+              "#is13x"
             ],
             "style": {
               "display": "flex",
@@ -847,7 +777,7 @@
           },
           {
             "selectors": [
-              "#inq8b"
+              "#itwho"
             ],
             "style": {
               "margin-top": "0",
@@ -858,7 +788,7 @@
           },
           {
             "selectors": [
-              "#igy3w"
+              "#imcp2"
             ],
             "style": {
               "color": "white",
@@ -872,7 +802,7 @@
           },
           {
             "selectors": [
-              "#iqbac"
+              "#i66ew"
             ],
             "style": {
               "color": "white",
@@ -886,7 +816,7 @@
           },
           {
             "selectors": [
-              "#iuqln"
+              "#i9zih"
             ],
             "style": {
               "display": "flex",
@@ -896,7 +826,7 @@
           },
           {
             "selectors": [
-              "#ibaau"
+              "#ikdsh"
             ],
             "style": {
               "margin-top": "auto",
@@ -909,7 +839,7 @@
           },
           {
             "selectors": [
-              "#in7x5"
+              "#iugo8"
             ],
             "style": {
               "width": "250px",
@@ -923,7 +853,7 @@
           },
           {
             "selectors": [
-              "#ie56i"
+              "#ihbdj"
             ],
             "style": {
               "margin-top": "0",
@@ -934,7 +864,7 @@
           },
           {
             "selectors": [
-              "#is0s1"
+              "#ihkns"
             ],
             "style": {
               "color": "#666",
@@ -952,7 +882,7 @@
           },
           {
             "selectors": [
-              "#i6hi3"
+              "#is6sa"
             ],
             "style": {
               "flex": "1",
@@ -963,7 +893,7 @@
           },
           {
             "selectors": [
-              "#i6372"
+              "#i3ng5"
             ],
             "style": {
               "display": "flex",
@@ -976,7 +906,7 @@
         "symbols": [],
         "version": "0.21.13"
       },
-      "lastUpdate": "2026-04-24T11:36:20.488Z"
+      "lastUpdate": "2026-04-24T12:11:38.390Z"
     }
   ]
 }

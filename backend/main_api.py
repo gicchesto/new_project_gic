@@ -367,7 +367,7 @@ async def create_city(city_data: CityCreate, database: Session = Depends(get_db)
 
 
     db_city = City(
-        City=city_data.City,        Id=city_data.Id        )
+        City=city_data.City        )
 
     database.add(db_city)
     database.commit()
@@ -406,7 +406,7 @@ async def bulk_create_city(items: list[CityCreate], database: Session = Depends(
             # Basic validation for each item
 
             db_city = City(
-                City=item_data.City,                Id=item_data.Id            )
+                City=item_data.City            )
             database.add(db_city)
             database.flush()  # Get ID without committing
             created_items.append(db_city.id)
@@ -454,7 +454,6 @@ async def update_city(city_id: int, city_data: CityCreate, database: Session = D
         raise HTTPException(status_code=404, detail="City not found")
 
     setattr(db_city, 'City', city_data.City)
-    setattr(db_city, 'Id', city_data.Id)
     if city_data.person is not None:
         # Clear all existing relationships (set foreign key to NULL)
         database.query(Person).filter(Person.city_id == db_city.id).update(
@@ -608,7 +607,7 @@ async def create_person(person_data: PersonCreate, database: Session = Depends(g
         raise HTTPException(status_code=400, detail="City ID is required")
 
     db_person = Person(
-        date_of=person_data.date_of,        id=person_data.id,        Person=person_data.Person,        city_id=person_data.city        )
+        date_of=person_data.date_of,        name=person_data.name,        city_id=person_data.city        )
 
     database.add(db_person)
     database.commit()
@@ -633,7 +632,7 @@ async def bulk_create_person(items: list[PersonCreate], database: Session = Depe
                 raise ValueError("City ID is required")
 
             db_person = Person(
-                date_of=item_data.date_of,                id=item_data.id,                Person=item_data.Person,                city_id=item_data.city            )
+                date_of=item_data.date_of,                name=item_data.name,                city_id=item_data.city            )
             database.add(db_person)
             database.flush()  # Get ID without committing
             created_items.append(db_person.id)
@@ -681,8 +680,7 @@ async def update_person(person_id: int, person_data: PersonCreate, database: Ses
         raise HTTPException(status_code=404, detail="Person not found")
 
     setattr(db_person, 'date_of', person_data.date_of)
-    setattr(db_person, 'id', person_data.id)
-    setattr(db_person, 'Person', person_data.Person)
+    setattr(db_person, 'name', person_data.name)
     if person_data.city is not None:
         db_city = database.query(City).filter(City.id == person_data.city).first()
         if not db_city:

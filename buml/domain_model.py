@@ -16,15 +16,13 @@ Person = Class(name="Person")
 City = Class(name="City")
 
 # Person class attributes and methods
-Person_id: Property = Property(name="id", type=StringType)
-Person_Person: Property = Property(name="Person", type=StringType)
+Person_name: Property = Property(name="name", type=StringType)
 Person_date_of: Property = Property(name="date_of", type=DateType)
-Person.attributes={Person_Person, Person_date_of, Person_id}
+Person.attributes={Person_date_of, Person_name}
 
 # City class attributes and methods
-City_Id: Property = Property(name="Id", type=StringType)
 City_City: Property = Property(name="City", type=StringType)
-City.attributes={City_City, City_Id}
+City.attributes={City_City}
 
 # Relationships
 inCity: BinaryAssociation = BinaryAssociation(

@@ -21,13 +21,12 @@ class Base(DeclarativeBase):
 class City(Base):
     __tablename__ = "city"
     id: Mapped_[int] = mapped_column(primary_key=True)
-    Id: Mapped_[str] = mapped_column(String_(100))
     City: Mapped_[str] = mapped_column(String_(100))
 
 class Person(Base):
     __tablename__ = "person"
-    id: Mapped_[str] = mapped_column(String_(100), primary_key=True)
-    Person: Mapped_[str] = mapped_column(String_(100))
+    id: Mapped_[int] = mapped_column(primary_key=True)
+    name: Mapped_[str] = mapped_column(String_(100))
     date_of: Mapped_[dt_date] = mapped_column(Date_)
     city_id: Mapped_[int] = mapped_column(ForeignKey_("city.id"))
 
